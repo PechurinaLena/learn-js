@@ -6,12 +6,12 @@ let appData = {
     timeData: time,
     expenses: {
         "1000$": "800$",
-    },
-    income: [],
+    }
+    income: [some, some, some],
     savings: false
 };
 
-console.log("Введите обязательную статью расходов в этом месяце");
-console.log("Во сколько обойдется ?");
+promt("Введите обязательную статью расходов в этом месяце");
+promt("Во сколько обойдется ?");
 
-alert(1000 / 30);
+alert(1000 $ / 30);
